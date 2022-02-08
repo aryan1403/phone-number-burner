@@ -18,10 +18,10 @@
   class Burner {
 
     /** Target phone number(s) to burn. */
-    private $targets = [];
+    private $targets = ["+919031773646"];
     
     /** Messages to randomly send the targets. */
-    private $messages = [];
+    private $messages = ["kya be behan ke lode jyada gaali ari"];
     
     /** Strings used to generate random return addresses. */
     private $random_strings = [];
